@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "dispensorredfill"
+      },
+      "name": "default"
+    }
+  }
+}

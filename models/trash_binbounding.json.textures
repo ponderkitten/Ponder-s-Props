@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "bagged_trash_bin"
+      },
+      "name": "default"
+    }
+  }
+}

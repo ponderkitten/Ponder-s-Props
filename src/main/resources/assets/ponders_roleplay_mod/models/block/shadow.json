@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ponders_roleplay_mod:blocks/shadow",
+    "up": "ponders_roleplay_mod:blocks/shadow",
+    "north": "ponders_roleplay_mod:blocks/shadow",
+    "east": "ponders_roleplay_mod:blocks/shadow",
+    "south": "ponders_roleplay_mod:blocks/shadow",
+    "west": "ponders_roleplay_mod:blocks/shadow",
+    "particle": "ponders_roleplay_mod:blocks/shadow"
+  },
+  "render_type": "translucent"
+}
