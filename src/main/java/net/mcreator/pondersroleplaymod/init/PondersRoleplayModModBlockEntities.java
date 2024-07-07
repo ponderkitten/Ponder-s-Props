@@ -12,12 +12,19 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.pondersroleplaymod.block.entity.WaterPuddleTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.WallBroomTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.WallBroomDustpanTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.TrashbinStage2TileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.TrashbinStage1TileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.TrashBinStage3TileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.TrashBinEmptyTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.TrashBagBoxOpenTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.TrashBagBoxClosedTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Trash5TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Trash4TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Trash3TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Trash2TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Trash1TileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.SodaFillYellowTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.SodaFillRedTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.SodaFillGreenTileEntity;
@@ -85,6 +92,14 @@ public class PondersRoleplayModModBlockEntities {
 			() -> BlockEntityType.Builder.of(CashRegisterClosedTileEntity::new, PondersRoleplayModModBlocks.CASH_REGISTER_CLOSED.get()).build(null));
 	public static final RegistryObject<BlockEntityType<CashRegisterOpenTileEntity>> CASH_REGISTER_OPEN = REGISTRY.register("cash_register_open",
 			() -> BlockEntityType.Builder.of(CashRegisterOpenTileEntity::new, PondersRoleplayModModBlocks.CASH_REGISTER_OPEN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WallBroomTileEntity>> WALL_BROOM = REGISTRY.register("wall_broom", () -> BlockEntityType.Builder.of(WallBroomTileEntity::new, PondersRoleplayModModBlocks.WALL_BROOM.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WallBroomDustpanTileEntity>> WALL_BROOM_DUSTPAN = REGISTRY.register("wall_broom_dustpan",
+			() -> BlockEntityType.Builder.of(WallBroomDustpanTileEntity::new, PondersRoleplayModModBlocks.WALL_BROOM_DUSTPAN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Trash1TileEntity>> TRASH_1 = REGISTRY.register("trash_1", () -> BlockEntityType.Builder.of(Trash1TileEntity::new, PondersRoleplayModModBlocks.TRASH_1.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Trash2TileEntity>> TRASH_2 = REGISTRY.register("trash_2", () -> BlockEntityType.Builder.of(Trash2TileEntity::new, PondersRoleplayModModBlocks.TRASH_2.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Trash3TileEntity>> TRASH_3 = REGISTRY.register("trash_3", () -> BlockEntityType.Builder.of(Trash3TileEntity::new, PondersRoleplayModModBlocks.TRASH_3.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Trash4TileEntity>> TRASH_4 = REGISTRY.register("trash_4", () -> BlockEntityType.Builder.of(Trash4TileEntity::new, PondersRoleplayModModBlocks.TRASH_4.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Trash5TileEntity>> TRASH_5 = REGISTRY.register("trash_5", () -> BlockEntityType.Builder.of(Trash5TileEntity::new, PondersRoleplayModModBlocks.TRASH_5.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

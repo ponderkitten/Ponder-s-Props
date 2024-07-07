@@ -8,12 +8,19 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModBlockEntities;
 import net.mcreator.pondersroleplaymod.block.renderer.WaterPuddleTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.WallBroomTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.WallBroomDustpanTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.TrashbinStage2TileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.TrashbinStage1TileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.TrashBinStage3TileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.TrashBinEmptyTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.TrashBagBoxOpenTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.TrashBagBoxClosedTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Trash5TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Trash4TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Trash3TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Trash2TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Trash1TileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.SodaFillYellowTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.SodaFillRedTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.SodaFillGreenTileRenderer;
@@ -68,5 +75,12 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_BAG_BOX_OPEN.get(), TrashBagBoxOpenTileRenderer::new);
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.CASH_REGISTER_CLOSED.get(), CashRegisterClosedTileRenderer::new);
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.CASH_REGISTER_OPEN.get(), CashRegisterOpenTileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.WALL_BROOM.get(), WallBroomTileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.WALL_BROOM_DUSTPAN.get(), WallBroomDustpanTileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_1.get(), Trash1TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_2.get(), Trash2TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_3.get(), Trash3TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_4.get(), Trash4TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_5.get(), Trash5TileRenderer::new);
 	}
 }

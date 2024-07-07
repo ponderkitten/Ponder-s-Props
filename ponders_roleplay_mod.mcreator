@@ -1382,6 +1382,384 @@
         ]
       },
       "path": "~/CashRegister"
+    },
+    {
+      "name": "Trash",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/trash.json"
+        ]
+      },
+      "path": "~/TrashBin"
+    },
+    {
+      "name": "Broom",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/broom.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/item/BroomItem.java"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "DustPan",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/item/DustPanItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/dust_pan.json"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "FullDustPan",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_dust_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/item/FullDustPanItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/full_dust_pan.json"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "WallBroom",
+      "type": "animatedblock",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_broom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WallBroomBlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WallBroomDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/WallBroomBlock.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WallBroomTileRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/wall_broom_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/WallBroomDisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/WallBroomTileEntity.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/wall_broom.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/wall_broom.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WallBroomDisplayModel.java"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "WallBroomDustpan",
+      "type": "animatedblock",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_broom_dustpan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WallBroomDustpanDisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WallBroomDustpanBlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/WallBroomDustpanDisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/wall_broom_dustpan_particle.json",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/wall_broom_dustpan.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WallBroomDustpanTileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/WallBroomDustpanBlock.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/wall_broom_dustpan.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/WallBroomDustpanTileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WallBroomDustpanDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "WallBroomOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_broom_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/WallBroomOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "BroomItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broom_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/BroomItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "Trash1",
+      "type": "animatedblock",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Trash1Block.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash1TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Trash1TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash1BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash1DisplayItemRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/trash_1.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/trash_1.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Trash1DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash1DisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/trash_1_particle.json"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "TrashOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/TrashOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "TrashItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/TrashItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "TrashItem",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/item/TrashItemItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/trash_item.json"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "Trash2",
+      "type": "animatedblock",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/trash_2.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Trash2DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Trash2Block.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash2BlockModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/trash_2_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Trash2TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash2TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash2DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash2DisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/trash_2.json"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "Trash3",
+      "type": "animatedblock",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash3BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Trash3TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Trash3Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/trash_3_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash3TileRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/trash_3.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/trash_3.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash3DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Trash3DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash3DisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "Trash4",
+      "type": "animatedblock",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Trash4DisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/trash_4.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Trash4TileEntity.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/trash_4.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash4TileRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/trash_4_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash4BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Trash4Block.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash4DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash4DisplayModel.java"
+        ]
+      },
+      "path": "~/Broom"
+    },
+    {
+      "name": "Trash5",
+      "type": "animatedblock",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trash_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Trash5TileEntity.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/trash_5_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash5TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Trash5DisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/trash_5.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/trash_5.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash5BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Trash5DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Trash5DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Trash5Block.java"
+        ]
+      },
+      "path": "~/Broom"
     }
   ],
   "variable_elements": [],
@@ -1411,33 +1789,44 @@
       "block.ponders_roleplay_mod.trash_bin_stage_3": "Trash Bin",
       "block.ponders_roleplay_mod.full_trash_bin": "Trash Bin",
       "item.ponders_roleplay_mod.soda_green": "Green Soda",
+      "item.ponders_roleplay_mod.dust_pan": "Dust Pan",
       "block.ponders_roleplay_mod.soda_fill_red": "Soda Dispensor",
       "block.ponders_roleplay_mod.pee_puddle": "Pee Puddle",
       "item.ponders_roleplay_mod.bloody_mop": "Bloody Mop",
       "block.ponders_roleplay_mod.trash_bag_box_closed": "Trash Bag Box Closed",
       "block.ponders_roleplay_mod.drain": "Drain",
       "block.ponders_roleplay_mod.cash_register_open": "Cash Register",
+      "item.ponders_roleplay_mod.trash_item": "Trash Pile",
       "block.ponders_roleplay_mod.soda_dispensor": "Soda Dispensor",
       "item.ponders_roleplay_mod.dead_child": "Dead Child",
       "block.ponders_roleplay_mod.drain_pee": "Drain",
       "block.ponders_roleplay_mod.trash_bin_empty": "Trash Bin",
+      "item.ponders_roleplay_mod.broom": "Broom",
       "item.ponders_roleplay_mod.wet_mop": "Wet Mop",
       "block.ponders_roleplay_mod.water_puddle": "Water Puddle",
       "block.ponders_roleplay_mod.soda_fill_yellow": "Soda Dispensor",
       "item.ponders_roleplay_mod.bloody_mop_bucket": "Blood Mop Bucket",
       "itemGroup.tabponders_role_play": "Ponders RP Blocks",
+      "item.ponders_roleplay_mod.full_dust_pan": "Full Dust Pan",
       "item.ponders_roleplay_mod.diarrhea_mop_bucket": "Diarrhea Mop Bucket",
       "block.ponders_roleplay_mod.blood_puddle": "Blood Puddle",
       "item.ponders_roleplay_mod.moneys": "Money",
       "item.ponders_roleplay_mod.soda_yellow": "Yellow Soda",
       "item.ponders_roleplay_mod.full_trash_bag": "Full Trash Bag",
       "block.ponders_roleplay_mod.cash_register_closed": "Cash Register",
+      "block.ponders_roleplay_mod.wall_broom_dustpan": "Wall Broom",
       "block.ponders_roleplay_mod.mop_bucket": "Empty Mop Bucket Block",
+      "block.ponders_roleplay_mod.wall_broom": "Wall Broom",
       "item.ponders_roleplay_mod.poopy_mop": "Poopy Mop",
       "block.ponders_roleplay_mod.bagged_trash_bin": "Trash Bin",
       "item.ponders_roleplay_mod.pee_soaked_mop": "Pee Soaked Mop",
+      "block.ponders_roleplay_mod.trash_1": "Trash",
+      "block.ponders_roleplay_mod.trash_2": "Trash",
       "block.ponders_roleplay_mod.mopand_bucket": "Mop and Bucket",
+      "block.ponders_roleplay_mod.trash_3": "Trash",
       "block.ponders_roleplay_mod.poop_puddle": "Poop Puddle",
+      "block.ponders_roleplay_mod.trash_4": "Trash",
+      "block.ponders_roleplay_mod.trash_5": "Trash",
       "item.ponders_roleplay_mod.empty_mop_bucket": "Empty Mop Bucket"
     }
   },
@@ -1462,6 +1851,10 @@
       },
       {
         "name": "CashRegister",
+        "children": []
+      },
+      {
+        "name": "Broom",
         "children": []
       }
     ]

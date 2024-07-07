@@ -1,0 +1,42 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SodaEmpty"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:FullDustPan"
+      },
+      {
+        "value": "CUSTOM:TrashItem"
+      },
+      {
+        "value": "CUSTOM:Trash1"
+      },
+      {
+        "value": "CUSTOM:Trash2"
+      },
+      {
+        "value": "CUSTOM:Trash3"
+      },
+      {
+        "value": "CUSTOM:Trash4"
+      },
+      {
+        "value": "CUSTOM:Trash5"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "trash",
+    "namespace": "forge"
+  }
+}

@@ -11,12 +11,19 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.pondersroleplaymod.block.WaterPuddleBlock;
+import net.mcreator.pondersroleplaymod.block.WallBroomDustpanBlock;
+import net.mcreator.pondersroleplaymod.block.WallBroomBlock;
 import net.mcreator.pondersroleplaymod.block.TrashbinStage2Block;
 import net.mcreator.pondersroleplaymod.block.TrashbinStage1Block;
 import net.mcreator.pondersroleplaymod.block.TrashBinStage3Block;
 import net.mcreator.pondersroleplaymod.block.TrashBinEmptyBlock;
 import net.mcreator.pondersroleplaymod.block.TrashBagBoxOpenBlock;
 import net.mcreator.pondersroleplaymod.block.TrashBagBoxClosedBlock;
+import net.mcreator.pondersroleplaymod.block.Trash5Block;
+import net.mcreator.pondersroleplaymod.block.Trash4Block;
+import net.mcreator.pondersroleplaymod.block.Trash3Block;
+import net.mcreator.pondersroleplaymod.block.Trash2Block;
+import net.mcreator.pondersroleplaymod.block.Trash1Block;
 import net.mcreator.pondersroleplaymod.block.SodaFillYellowBlock;
 import net.mcreator.pondersroleplaymod.block.SodaFillRedBlock;
 import net.mcreator.pondersroleplaymod.block.SodaFillGreenBlock;
@@ -70,4 +77,11 @@ public class PondersRoleplayModModBlocks {
 	public static final RegistryObject<Block> TRASH_BAG_BOX_OPEN = REGISTRY.register("trash_bag_box_open", () -> new TrashBagBoxOpenBlock());
 	public static final RegistryObject<Block> CASH_REGISTER_CLOSED = REGISTRY.register("cash_register_closed", () -> new CashRegisterClosedBlock());
 	public static final RegistryObject<Block> CASH_REGISTER_OPEN = REGISTRY.register("cash_register_open", () -> new CashRegisterOpenBlock());
+	public static final RegistryObject<Block> WALL_BROOM = REGISTRY.register("wall_broom", () -> new WallBroomBlock());
+	public static final RegistryObject<Block> WALL_BROOM_DUSTPAN = REGISTRY.register("wall_broom_dustpan", () -> new WallBroomDustpanBlock());
+	public static final RegistryObject<Block> TRASH_1 = REGISTRY.register("trash_1", () -> new Trash1Block());
+	public static final RegistryObject<Block> TRASH_2 = REGISTRY.register("trash_2", () -> new Trash2Block());
+	public static final RegistryObject<Block> TRASH_3 = REGISTRY.register("trash_3", () -> new Trash3Block());
+	public static final RegistryObject<Block> TRASH_4 = REGISTRY.register("trash_4", () -> new Trash4Block());
+	public static final RegistryObject<Block> TRASH_5 = REGISTRY.register("trash_5", () -> new Trash5Block());
 }

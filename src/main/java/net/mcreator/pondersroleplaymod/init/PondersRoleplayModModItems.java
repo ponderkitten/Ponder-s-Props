@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.pondersroleplaymod.item.WetMopItem;
 import net.mcreator.pondersroleplaymod.item.WaterMopBucketItem;
+import net.mcreator.pondersroleplaymod.item.TrashItemItem;
 import net.mcreator.pondersroleplaymod.item.SodaYellowItem;
 import net.mcreator.pondersroleplaymod.item.SodaRedItem;
 import net.mcreator.pondersroleplaymod.item.SodaGreenItem;
@@ -27,20 +28,30 @@ import net.mcreator.pondersroleplaymod.item.PeeMopBucketItem;
 import net.mcreator.pondersroleplaymod.item.MopItem;
 import net.mcreator.pondersroleplaymod.item.MoneysItem;
 import net.mcreator.pondersroleplaymod.item.FullTrashBagItem;
+import net.mcreator.pondersroleplaymod.item.FullDustPanItem;
 import net.mcreator.pondersroleplaymod.item.EmptyTrashBagItem;
 import net.mcreator.pondersroleplaymod.item.EmptyMopBucketItem;
+import net.mcreator.pondersroleplaymod.item.DustPanItem;
 import net.mcreator.pondersroleplaymod.item.DiarrheaMopBucketItem;
 import net.mcreator.pondersroleplaymod.item.DeadChildItem;
+import net.mcreator.pondersroleplaymod.item.BroomItem;
 import net.mcreator.pondersroleplaymod.item.BoxCutterItem;
 import net.mcreator.pondersroleplaymod.item.BloodyMopItem;
 import net.mcreator.pondersroleplaymod.item.BloodyMopBucketItem;
 import net.mcreator.pondersroleplaymod.block.display.WaterPuddleDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.WallBroomDustpanDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.WallBroomDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.TrashbinStage2DisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.TrashbinStage1DisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.TrashBinStage3DisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.TrashBinEmptyDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.TrashBagBoxOpenDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.TrashBagBoxClosedDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Trash5DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Trash4DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Trash3DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Trash2DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Trash1DisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.SodaFillYellowDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.SodaFillRedDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.SodaFillGreenDisplayItem;
@@ -136,6 +147,18 @@ public class PondersRoleplayModModItems {
 			() -> new CashRegisterOpenDisplayItem(PondersRoleplayModModBlocks.CASH_REGISTER_OPEN.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> REGISTER_KEY = REGISTRY.register("register_key", () -> new RegisterKeyItem());
 	public static final RegistryObject<Item> MONEYS = REGISTRY.register("moneys", () -> new MoneysItem());
+	public static final RegistryObject<Item> BROOM = REGISTRY.register("broom", () -> new BroomItem());
+	public static final RegistryObject<Item> DUST_PAN = REGISTRY.register("dust_pan", () -> new DustPanItem());
+	public static final RegistryObject<Item> FULL_DUST_PAN = REGISTRY.register("full_dust_pan", () -> new FullDustPanItem());
+	public static final RegistryObject<Item> WALL_BROOM = REGISTRY.register(PondersRoleplayModModBlocks.WALL_BROOM.getId().getPath(), () -> new WallBroomDisplayItem(PondersRoleplayModModBlocks.WALL_BROOM.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> WALL_BROOM_DUSTPAN = REGISTRY.register(PondersRoleplayModModBlocks.WALL_BROOM_DUSTPAN.getId().getPath(),
+			() -> new WallBroomDustpanDisplayItem(PondersRoleplayModModBlocks.WALL_BROOM_DUSTPAN.get(), new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_ROLE_PLAY)));
+	public static final RegistryObject<Item> TRASH_1 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_1.getId().getPath(), () -> new Trash1DisplayItem(PondersRoleplayModModBlocks.TRASH_1.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> TRASH_ITEM = REGISTRY.register("trash_item", () -> new TrashItemItem());
+	public static final RegistryObject<Item> TRASH_2 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_2.getId().getPath(), () -> new Trash2DisplayItem(PondersRoleplayModModBlocks.TRASH_2.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> TRASH_3 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_3.getId().getPath(), () -> new Trash3DisplayItem(PondersRoleplayModModBlocks.TRASH_3.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> TRASH_4 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_4.getId().getPath(), () -> new Trash4DisplayItem(PondersRoleplayModModBlocks.TRASH_4.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> TRASH_5 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_5.getId().getPath(), () -> new Trash5DisplayItem(PondersRoleplayModModBlocks.TRASH_5.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

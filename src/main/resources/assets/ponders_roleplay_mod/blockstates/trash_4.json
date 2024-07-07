@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ponders_roleplay_mod:custom/trash_4_particle"
+    },
+    "facing=east": {
+      "model": "ponders_roleplay_mod:custom/trash_4_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ponders_roleplay_mod:custom/trash_4_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ponders_roleplay_mod:custom/trash_4_particle",
+      "y": 270
+    }
+  }
+}
