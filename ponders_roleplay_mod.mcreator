@@ -1760,6 +1760,297 @@
         ]
       },
       "path": "~/Broom"
+    },
+    {
+      "name": "WoodenBoards3",
+      "type": "animatedblock",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_boards_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/WoodenBoards3Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/wooden_boards_3_particle.json",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/wooden_boards_3.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WoodenBoards3TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WoodenBoards3DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/WoodenBoards3TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WoodenBoards3BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WoodenBoards3DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/WoodenBoards3DisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/wooden_boards_3.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WoodenBoards2",
+      "type": "animatedblock",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_boards_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WoodenBoards2DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/WoodenBoards2Block.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WoodenBoards2TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/WoodenBoards2DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WoodenBoards2DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/WoodenBoards2TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WoodenBoards2BlockModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/wooden_boards_2.json",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/wooden_boards_2.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/wooden_boards_2_particle.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WoodenBoards1",
+      "type": "animatedblock",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_boards_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WoodenBoards1DisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/wooden_boards_1.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/WoodenBoards1DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/WoodenBoards1Block.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WoodenBoards1DisplayItemRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/wooden_boards_1_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/WoodenBoards1TileRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/wooden_boards_1.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/WoodenBoards1BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/WoodenBoards1TileEntity.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Board",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "board",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/item/BoardItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/board.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "BoardRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "board_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/BoardRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Hammer",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/item/HammerItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/hammer.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WoodenBoardsOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_boards_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/WoodenBoardsOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Crowbar",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/item/CrowbarItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/crowbar.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "ClosedNote",
+      "type": "animatedblock",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "closed_note",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/closed_note.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/ClosedNoteTileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/ClosedNoteDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/ClosedNoteDisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/ClosedNoteTileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/ClosedNoteBlock.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/closed_note.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/ClosedNoteBlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/ClosedNoteDisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/closed_note_particle.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PaperOpenSign",
+      "type": "animatedblock",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_open_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/PaperOpenSignDisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/paper_open_sign.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/PaperOpenSignBlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/PaperOpenSignTileEntity.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/paper_open_sign_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/PaperOpenSignBlock.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/PaperOpenSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/PaperOpenSignTileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/PaperOpenSignDisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/paper_open_sign.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PaperClosedSign",
+      "type": "animatedblock",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_closed_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/PaperClosedSignTileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/PaperClosedSignBlockModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/paper_closed_sign.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/paper_closed_sign_particle.json",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/paper_closed_sign.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/PaperClosedSignDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/PaperClosedSignDisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/PaperClosedSignDisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/PaperClosedSignTileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/PaperClosedSignBlock.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PaperOpenSignOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_open_sign_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/PaperOpenSignOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
     }
   ],
   "variable_elements": [],
@@ -1769,30 +2060,34 @@
       "block.ponders_roleplay_mod.sink": "Sink",
       "item.ponders_roleplay_mod.mop": "Mop",
       "item.ponders_roleplay_mod.soda_red": "Red Soda",
+      "block.ponders_roleplay_mod.paper_closed_sign": "Paper Closed Sign",
       "item.ponders_roleplay_mod.empty_trash_bag": "Empty Trash Bag",
       "item.ponders_roleplay_mod.pee_mop_bucket": "Pee Mop Bucket",
-      "item.ponders_roleplay_mod.register_key": "Register Key",
+      "item.ponders_roleplay_mod.hammer": "Hammer",
       "block.ponders_roleplay_mod.soda_fill_green": "Soda Dispensor",
+      "item.ponders_roleplay_mod.register_key": "Register Key",
       "itemGroup.tabponders_rp_items": "Ponders RP Items",
       "item.ponders_roleplay_mod.soda_empty": "Empty Cup",
       "block.ponders_roleplay_mod.drain_poop": "Drain",
       "block.ponders_roleplay_mod.trashbin_stage_2": "Trash Bin",
-      "block.ponders_roleplay_mod.trashbin_stage_1": "Trash Bin",
       "item.ponders_roleplay_mod.water_mop_bucket": "Water Mop Bucket",
+      "block.ponders_roleplay_mod.trashbin_stage_1": "Trash Bin",
       "block.ponders_roleplay_mod.drain_water": "Drain",
       "item.ponders_roleplay_mod.soda_blue": "Blue Soda",
       "block.ponders_roleplay_mod.drain_blood": "Drain",
       "item.ponders_roleplay_mod.box_cutter": "Box Cutter",
       "block.ponders_roleplay_mod.trash_bag_box_open": "Trash Bag Box Open",
+      "item.ponders_roleplay_mod.board": "Board",
       "block.ponders_roleplay_mod.shadow": "Shadow",
       "block.ponders_roleplay_mod.soda_fill_blue": "Soda Dispensor",
+      "block.ponders_roleplay_mod.closed_note": "Closed Note",
       "block.ponders_roleplay_mod.trash_bin_stage_3": "Trash Bin",
       "block.ponders_roleplay_mod.full_trash_bin": "Trash Bin",
       "item.ponders_roleplay_mod.soda_green": "Green Soda",
       "item.ponders_roleplay_mod.dust_pan": "Dust Pan",
       "block.ponders_roleplay_mod.soda_fill_red": "Soda Dispensor",
       "block.ponders_roleplay_mod.pee_puddle": "Pee Puddle",
-      "item.ponders_roleplay_mod.bloody_mop": "Bloody Mop",
+      "item.ponders_roleplay_mod.bloody_mop": "Dirty Mop",
       "block.ponders_roleplay_mod.trash_bag_box_closed": "Trash Bag Box Closed",
       "block.ponders_roleplay_mod.drain": "Drain",
       "block.ponders_roleplay_mod.cash_register_open": "Cash Register",
@@ -1800,26 +2095,31 @@
       "block.ponders_roleplay_mod.soda_dispensor": "Soda Dispensor",
       "item.ponders_roleplay_mod.dead_child": "Dead Child",
       "block.ponders_roleplay_mod.drain_pee": "Drain",
+      "item.ponders_roleplay_mod.crowbar": "Crowbar",
       "block.ponders_roleplay_mod.trash_bin_empty": "Trash Bin",
       "item.ponders_roleplay_mod.broom": "Broom",
-      "item.ponders_roleplay_mod.wet_mop": "Wet Mop",
+      "item.ponders_roleplay_mod.wet_mop": "Dirty Mop",
       "block.ponders_roleplay_mod.water_puddle": "Water Puddle",
       "block.ponders_roleplay_mod.soda_fill_yellow": "Soda Dispensor",
       "item.ponders_roleplay_mod.bloody_mop_bucket": "Blood Mop Bucket",
       "itemGroup.tabponders_role_play": "Ponders RP Blocks",
       "item.ponders_roleplay_mod.full_dust_pan": "Full Dust Pan",
+      "block.ponders_roleplay_mod.wooden_boards_3": "Wooden Boards",
       "item.ponders_roleplay_mod.diarrhea_mop_bucket": "Diarrhea Mop Bucket",
       "block.ponders_roleplay_mod.blood_puddle": "Blood Puddle",
       "item.ponders_roleplay_mod.moneys": "Money",
       "item.ponders_roleplay_mod.soda_yellow": "Yellow Soda",
+      "block.ponders_roleplay_mod.wooden_boards_2": "Wooden Boards",
+      "block.ponders_roleplay_mod.wooden_boards_1": "Wooden Boards",
       "item.ponders_roleplay_mod.full_trash_bag": "Full Trash Bag",
       "block.ponders_roleplay_mod.cash_register_closed": "Cash Register",
       "block.ponders_roleplay_mod.wall_broom_dustpan": "Wall Broom",
       "block.ponders_roleplay_mod.mop_bucket": "Empty Mop Bucket Block",
       "block.ponders_roleplay_mod.wall_broom": "Wall Broom",
-      "item.ponders_roleplay_mod.poopy_mop": "Poopy Mop",
+      "block.ponders_roleplay_mod.paper_open_sign": "Paper Open Sign",
+      "item.ponders_roleplay_mod.poopy_mop": "Dirty Mop",
       "block.ponders_roleplay_mod.bagged_trash_bin": "Trash Bin",
-      "item.ponders_roleplay_mod.pee_soaked_mop": "Pee Soaked Mop",
+      "item.ponders_roleplay_mod.pee_soaked_mop": "Dirty Mop",
       "block.ponders_roleplay_mod.trash_1": "Trash",
       "block.ponders_roleplay_mod.trash_2": "Trash",
       "block.ponders_roleplay_mod.mopand_bucket": "Mop and Bucket",

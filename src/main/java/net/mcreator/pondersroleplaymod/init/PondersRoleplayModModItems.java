@@ -27,6 +27,7 @@ import net.mcreator.pondersroleplaymod.item.PeeSoakedMopItem;
 import net.mcreator.pondersroleplaymod.item.PeeMopBucketItem;
 import net.mcreator.pondersroleplaymod.item.MopItem;
 import net.mcreator.pondersroleplaymod.item.MoneysItem;
+import net.mcreator.pondersroleplaymod.item.HammerItem;
 import net.mcreator.pondersroleplaymod.item.FullTrashBagItem;
 import net.mcreator.pondersroleplaymod.item.FullDustPanItem;
 import net.mcreator.pondersroleplaymod.item.EmptyTrashBagItem;
@@ -34,10 +35,15 @@ import net.mcreator.pondersroleplaymod.item.EmptyMopBucketItem;
 import net.mcreator.pondersroleplaymod.item.DustPanItem;
 import net.mcreator.pondersroleplaymod.item.DiarrheaMopBucketItem;
 import net.mcreator.pondersroleplaymod.item.DeadChildItem;
+import net.mcreator.pondersroleplaymod.item.CrowbarItem;
 import net.mcreator.pondersroleplaymod.item.BroomItem;
 import net.mcreator.pondersroleplaymod.item.BoxCutterItem;
+import net.mcreator.pondersroleplaymod.item.BoardItem;
 import net.mcreator.pondersroleplaymod.item.BloodyMopItem;
 import net.mcreator.pondersroleplaymod.item.BloodyMopBucketItem;
+import net.mcreator.pondersroleplaymod.block.display.WoodenBoards3DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.WoodenBoards2DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.WoodenBoards1DisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.WaterPuddleDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.WallBroomDustpanDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.WallBroomDisplayItem;
@@ -60,6 +66,8 @@ import net.mcreator.pondersroleplaymod.block.display.SodaDispensorDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.SinkDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.PoopPuddleDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.PeePuddleDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.PaperOpenSignDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.PaperClosedSignDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.MopandBucketDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.MopBucketDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.FullTrashBinDisplayItem;
@@ -68,6 +76,7 @@ import net.mcreator.pondersroleplaymod.block.display.DrainPoopDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.DrainPeeDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.DrainDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.DrainBloodDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.ClosedNoteDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.CashRegisterOpenDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.CashRegisterClosedDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.BloodPuddleDisplayItem;
@@ -159,6 +168,21 @@ public class PondersRoleplayModModItems {
 	public static final RegistryObject<Item> TRASH_3 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_3.getId().getPath(), () -> new Trash3DisplayItem(PondersRoleplayModModBlocks.TRASH_3.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> TRASH_4 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_4.getId().getPath(), () -> new Trash4DisplayItem(PondersRoleplayModModBlocks.TRASH_4.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> TRASH_5 = REGISTRY.register(PondersRoleplayModModBlocks.TRASH_5.getId().getPath(), () -> new Trash5DisplayItem(PondersRoleplayModModBlocks.TRASH_5.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> WOODEN_BOARDS_3 = REGISTRY.register(PondersRoleplayModModBlocks.WOODEN_BOARDS_3.getId().getPath(),
+			() -> new WoodenBoards3DisplayItem(PondersRoleplayModModBlocks.WOODEN_BOARDS_3.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> WOODEN_BOARDS_2 = REGISTRY.register(PondersRoleplayModModBlocks.WOODEN_BOARDS_2.getId().getPath(),
+			() -> new WoodenBoards2DisplayItem(PondersRoleplayModModBlocks.WOODEN_BOARDS_2.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> WOODEN_BOARDS_1 = REGISTRY.register(PondersRoleplayModModBlocks.WOODEN_BOARDS_1.getId().getPath(),
+			() -> new WoodenBoards1DisplayItem(PondersRoleplayModModBlocks.WOODEN_BOARDS_1.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> BOARD = REGISTRY.register("board", () -> new BoardItem());
+	public static final RegistryObject<Item> HAMMER = REGISTRY.register("hammer", () -> new HammerItem());
+	public static final RegistryObject<Item> CROWBAR = REGISTRY.register("crowbar", () -> new CrowbarItem());
+	public static final RegistryObject<Item> CLOSED_NOTE = REGISTRY.register(PondersRoleplayModModBlocks.CLOSED_NOTE.getId().getPath(),
+			() -> new ClosedNoteDisplayItem(PondersRoleplayModModBlocks.CLOSED_NOTE.get(), new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_ROLE_PLAY)));
+	public static final RegistryObject<Item> PAPER_OPEN_SIGN = REGISTRY.register(PondersRoleplayModModBlocks.PAPER_OPEN_SIGN.getId().getPath(),
+			() -> new PaperOpenSignDisplayItem(PondersRoleplayModModBlocks.PAPER_OPEN_SIGN.get(), new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_ROLE_PLAY)));
+	public static final RegistryObject<Item> PAPER_CLOSED_SIGN = REGISTRY.register(PondersRoleplayModModBlocks.PAPER_CLOSED_SIGN.getId().getPath(),
+			() -> new PaperClosedSignDisplayItem(PondersRoleplayModModBlocks.PAPER_CLOSED_SIGN.get(), new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_ROLE_PLAY)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

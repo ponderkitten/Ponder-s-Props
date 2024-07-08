@@ -11,6 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.pondersroleplaymod.block.entity.WoodenBoards3TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.WoodenBoards2TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.WoodenBoards1TileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.WaterPuddleTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.WallBroomTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.WallBroomDustpanTileEntity;
@@ -33,6 +36,8 @@ import net.mcreator.pondersroleplaymod.block.entity.SodaDispensorTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.SinkTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.PoopPuddleTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.PeePuddleTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.PaperOpenSignTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.PaperClosedSignTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.MopandBucketTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.MopBucketTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.FullTrashBinTileEntity;
@@ -41,6 +46,7 @@ import net.mcreator.pondersroleplaymod.block.entity.DrainTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.DrainPoopTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.DrainPeeTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.DrainBloodTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.ClosedNoteTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.CashRegisterOpenTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.CashRegisterClosedTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.BloodPuddleTileEntity;
@@ -100,6 +106,17 @@ public class PondersRoleplayModModBlockEntities {
 	public static final RegistryObject<BlockEntityType<Trash3TileEntity>> TRASH_3 = REGISTRY.register("trash_3", () -> BlockEntityType.Builder.of(Trash3TileEntity::new, PondersRoleplayModModBlocks.TRASH_3.get()).build(null));
 	public static final RegistryObject<BlockEntityType<Trash4TileEntity>> TRASH_4 = REGISTRY.register("trash_4", () -> BlockEntityType.Builder.of(Trash4TileEntity::new, PondersRoleplayModModBlocks.TRASH_4.get()).build(null));
 	public static final RegistryObject<BlockEntityType<Trash5TileEntity>> TRASH_5 = REGISTRY.register("trash_5", () -> BlockEntityType.Builder.of(Trash5TileEntity::new, PondersRoleplayModModBlocks.TRASH_5.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WoodenBoards3TileEntity>> WOODEN_BOARDS_3 = REGISTRY.register("wooden_boards_3",
+			() -> BlockEntityType.Builder.of(WoodenBoards3TileEntity::new, PondersRoleplayModModBlocks.WOODEN_BOARDS_3.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WoodenBoards2TileEntity>> WOODEN_BOARDS_2 = REGISTRY.register("wooden_boards_2",
+			() -> BlockEntityType.Builder.of(WoodenBoards2TileEntity::new, PondersRoleplayModModBlocks.WOODEN_BOARDS_2.get()).build(null));
+	public static final RegistryObject<BlockEntityType<WoodenBoards1TileEntity>> WOODEN_BOARDS_1 = REGISTRY.register("wooden_boards_1",
+			() -> BlockEntityType.Builder.of(WoodenBoards1TileEntity::new, PondersRoleplayModModBlocks.WOODEN_BOARDS_1.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ClosedNoteTileEntity>> CLOSED_NOTE = REGISTRY.register("closed_note", () -> BlockEntityType.Builder.of(ClosedNoteTileEntity::new, PondersRoleplayModModBlocks.CLOSED_NOTE.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PaperOpenSignTileEntity>> PAPER_OPEN_SIGN = REGISTRY.register("paper_open_sign",
+			() -> BlockEntityType.Builder.of(PaperOpenSignTileEntity::new, PondersRoleplayModModBlocks.PAPER_OPEN_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PaperClosedSignTileEntity>> PAPER_CLOSED_SIGN = REGISTRY.register("paper_closed_sign",
+			() -> BlockEntityType.Builder.of(PaperClosedSignTileEntity::new, PondersRoleplayModModBlocks.PAPER_CLOSED_SIGN.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

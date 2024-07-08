@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "wetmopitem",
     "customModelName": "Normal",
-    "name": "Wet Mop",
+    "name": "Dirty Mop",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:PondersRPItems"

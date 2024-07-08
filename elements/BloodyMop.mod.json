@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "bloodymopitem",
     "customModelName": "Normal",
-    "name": "Bloody Mop",
+    "name": "Dirty Mop",
     "specialInfo": [
       "You should probably clean this off before cleaning anything else"
     ],

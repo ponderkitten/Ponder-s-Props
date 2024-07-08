@@ -10,6 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.pondersroleplaymod.block.WoodenBoards3Block;
+import net.mcreator.pondersroleplaymod.block.WoodenBoards2Block;
+import net.mcreator.pondersroleplaymod.block.WoodenBoards1Block;
 import net.mcreator.pondersroleplaymod.block.WaterPuddleBlock;
 import net.mcreator.pondersroleplaymod.block.WallBroomDustpanBlock;
 import net.mcreator.pondersroleplaymod.block.WallBroomBlock;
@@ -33,6 +36,8 @@ import net.mcreator.pondersroleplaymod.block.SinkBlock;
 import net.mcreator.pondersroleplaymod.block.ShadowBlock;
 import net.mcreator.pondersroleplaymod.block.PoopPuddleBlock;
 import net.mcreator.pondersroleplaymod.block.PeePuddleBlock;
+import net.mcreator.pondersroleplaymod.block.PaperOpenSignBlock;
+import net.mcreator.pondersroleplaymod.block.PaperClosedSignBlock;
 import net.mcreator.pondersroleplaymod.block.MopandBucketBlock;
 import net.mcreator.pondersroleplaymod.block.MopBucketBlock;
 import net.mcreator.pondersroleplaymod.block.FullTrashBinBlock;
@@ -41,6 +46,7 @@ import net.mcreator.pondersroleplaymod.block.DrainPoopBlock;
 import net.mcreator.pondersroleplaymod.block.DrainPeeBlock;
 import net.mcreator.pondersroleplaymod.block.DrainBloodBlock;
 import net.mcreator.pondersroleplaymod.block.DrainBlock;
+import net.mcreator.pondersroleplaymod.block.ClosedNoteBlock;
 import net.mcreator.pondersroleplaymod.block.CashRegisterOpenBlock;
 import net.mcreator.pondersroleplaymod.block.CashRegisterClosedBlock;
 import net.mcreator.pondersroleplaymod.block.BloodPuddleBlock;
@@ -84,4 +90,10 @@ public class PondersRoleplayModModBlocks {
 	public static final RegistryObject<Block> TRASH_3 = REGISTRY.register("trash_3", () -> new Trash3Block());
 	public static final RegistryObject<Block> TRASH_4 = REGISTRY.register("trash_4", () -> new Trash4Block());
 	public static final RegistryObject<Block> TRASH_5 = REGISTRY.register("trash_5", () -> new Trash5Block());
+	public static final RegistryObject<Block> WOODEN_BOARDS_3 = REGISTRY.register("wooden_boards_3", () -> new WoodenBoards3Block());
+	public static final RegistryObject<Block> WOODEN_BOARDS_2 = REGISTRY.register("wooden_boards_2", () -> new WoodenBoards2Block());
+	public static final RegistryObject<Block> WOODEN_BOARDS_1 = REGISTRY.register("wooden_boards_1", () -> new WoodenBoards1Block());
+	public static final RegistryObject<Block> CLOSED_NOTE = REGISTRY.register("closed_note", () -> new ClosedNoteBlock());
+	public static final RegistryObject<Block> PAPER_OPEN_SIGN = REGISTRY.register("paper_open_sign", () -> new PaperOpenSignBlock());
+	public static final RegistryObject<Block> PAPER_CLOSED_SIGN = REGISTRY.register("paper_closed_sign", () -> new PaperClosedSignBlock());
 }

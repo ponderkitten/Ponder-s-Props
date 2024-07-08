@@ -26,7 +26,8 @@ public class CashRegisterOnBlockRightClickedProcedure {
 		if (entity == null)
 			return;
 		if (PondersRoleplayModModBlocks.CASH_REGISTER_CLOSED.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock()) {
-			if (PondersRoleplayModModItems.REGISTER_KEY.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
+			if (PondersRoleplayModModItems.CROWBAR.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()
+					|| PondersRoleplayModModItems.REGISTER_KEY.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
 					BlockState _bs = PondersRoleplayModModBlocks.CASH_REGISTER_OPEN.get().defaultBlockState();

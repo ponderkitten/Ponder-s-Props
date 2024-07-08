@@ -7,6 +7,9 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModBlockEntities;
+import net.mcreator.pondersroleplaymod.block.renderer.WoodenBoards3TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.WoodenBoards2TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.WoodenBoards1TileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.WaterPuddleTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.WallBroomTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.WallBroomDustpanTileRenderer;
@@ -29,6 +32,8 @@ import net.mcreator.pondersroleplaymod.block.renderer.SodaDispensorTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.SinkTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.PoopPuddleTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.PeePuddleTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.PaperOpenSignTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.PaperClosedSignTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.MopandBucketTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.MopBucketTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.FullTrashBinTileRenderer;
@@ -37,6 +42,7 @@ import net.mcreator.pondersroleplaymod.block.renderer.DrainTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.DrainPoopTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.DrainPeeTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.DrainBloodTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.ClosedNoteTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.CashRegisterOpenTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.CashRegisterClosedTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.BloodPuddleTileRenderer;
@@ -82,5 +88,11 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_3.get(), Trash3TileRenderer::new);
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_4.get(), Trash4TileRenderer::new);
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.TRASH_5.get(), Trash5TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.WOODEN_BOARDS_3.get(), WoodenBoards3TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.WOODEN_BOARDS_2.get(), WoodenBoards2TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.WOODEN_BOARDS_1.get(), WoodenBoards1TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.CLOSED_NOTE.get(), ClosedNoteTileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PAPER_OPEN_SIGN.get(), PaperOpenSignTileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PAPER_CLOSED_SIGN.get(), PaperClosedSignTileRenderer::new);
 	}
 }
