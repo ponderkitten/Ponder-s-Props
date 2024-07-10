@@ -31,6 +31,17 @@ import net.mcreator.pondersroleplaymod.block.renderer.SodaFillBlueTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.SodaDispensorTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.SinkTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.PoopPuddleTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.PlatesTileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates9TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates8TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates7TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates6TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates5TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates4TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates3TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates2TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates11TileRenderer;
+import net.mcreator.pondersroleplaymod.block.renderer.Plates10TileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.PeePuddleTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.PaperOpenSignTileRenderer;
 import net.mcreator.pondersroleplaymod.block.renderer.PaperClosedSignTileRenderer;
@@ -94,5 +105,16 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.CLOSED_NOTE.get(), ClosedNoteTileRenderer::new);
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PAPER_OPEN_SIGN.get(), PaperOpenSignTileRenderer::new);
 		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PAPER_CLOSED_SIGN.get(), PaperClosedSignTileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES.get(), PlatesTileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_2.get(), Plates2TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_3.get(), Plates3TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_4.get(), Plates4TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_5.get(), Plates5TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_6.get(), Plates6TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_7.get(), Plates7TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_8.get(), Plates8TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_9.get(), Plates9TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_10.get(), Plates10TileRenderer::new);
+		event.registerBlockEntityRenderer(PondersRoleplayModModBlockEntities.PLATES_11.get(), Plates11TileRenderer::new);
 	}
 }

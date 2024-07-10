@@ -35,6 +35,17 @@ import net.mcreator.pondersroleplaymod.block.entity.SodaFillBlueTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.SodaDispensorTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.SinkTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.PoopPuddleTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.PlatesTileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates9TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates8TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates7TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates6TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates5TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates4TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates3TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates2TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates11TileEntity;
+import net.mcreator.pondersroleplaymod.block.entity.Plates10TileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.PeePuddleTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.PaperOpenSignTileEntity;
 import net.mcreator.pondersroleplaymod.block.entity.PaperClosedSignTileEntity;
@@ -117,6 +128,17 @@ public class PondersRoleplayModModBlockEntities {
 			() -> BlockEntityType.Builder.of(PaperOpenSignTileEntity::new, PondersRoleplayModModBlocks.PAPER_OPEN_SIGN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<PaperClosedSignTileEntity>> PAPER_CLOSED_SIGN = REGISTRY.register("paper_closed_sign",
 			() -> BlockEntityType.Builder.of(PaperClosedSignTileEntity::new, PondersRoleplayModModBlocks.PAPER_CLOSED_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<PlatesTileEntity>> PLATES = REGISTRY.register("plates", () -> BlockEntityType.Builder.of(PlatesTileEntity::new, PondersRoleplayModModBlocks.PLATES.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates2TileEntity>> PLATES_2 = REGISTRY.register("plates_2", () -> BlockEntityType.Builder.of(Plates2TileEntity::new, PondersRoleplayModModBlocks.PLATES_2.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates3TileEntity>> PLATES_3 = REGISTRY.register("plates_3", () -> BlockEntityType.Builder.of(Plates3TileEntity::new, PondersRoleplayModModBlocks.PLATES_3.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates4TileEntity>> PLATES_4 = REGISTRY.register("plates_4", () -> BlockEntityType.Builder.of(Plates4TileEntity::new, PondersRoleplayModModBlocks.PLATES_4.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates5TileEntity>> PLATES_5 = REGISTRY.register("plates_5", () -> BlockEntityType.Builder.of(Plates5TileEntity::new, PondersRoleplayModModBlocks.PLATES_5.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates6TileEntity>> PLATES_6 = REGISTRY.register("plates_6", () -> BlockEntityType.Builder.of(Plates6TileEntity::new, PondersRoleplayModModBlocks.PLATES_6.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates7TileEntity>> PLATES_7 = REGISTRY.register("plates_7", () -> BlockEntityType.Builder.of(Plates7TileEntity::new, PondersRoleplayModModBlocks.PLATES_7.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates8TileEntity>> PLATES_8 = REGISTRY.register("plates_8", () -> BlockEntityType.Builder.of(Plates8TileEntity::new, PondersRoleplayModModBlocks.PLATES_8.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates9TileEntity>> PLATES_9 = REGISTRY.register("plates_9", () -> BlockEntityType.Builder.of(Plates9TileEntity::new, PondersRoleplayModModBlocks.PLATES_9.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates10TileEntity>> PLATES_10 = REGISTRY.register("plates_10", () -> BlockEntityType.Builder.of(Plates10TileEntity::new, PondersRoleplayModModBlocks.PLATES_10.get()).build(null));
+	public static final RegistryObject<BlockEntityType<Plates11TileEntity>> PLATES_11 = REGISTRY.register("plates_11", () -> BlockEntityType.Builder.of(Plates11TileEntity::new, PondersRoleplayModModBlocks.PLATES_11.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

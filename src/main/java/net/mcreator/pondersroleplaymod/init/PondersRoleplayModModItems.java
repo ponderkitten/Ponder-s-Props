@@ -23,6 +23,7 @@ import net.mcreator.pondersroleplaymod.item.SodaEmptyItem;
 import net.mcreator.pondersroleplaymod.item.SodaBlueItem;
 import net.mcreator.pondersroleplaymod.item.RegisterKeyItem;
 import net.mcreator.pondersroleplaymod.item.PoopyMopItem;
+import net.mcreator.pondersroleplaymod.item.PlateItem;
 import net.mcreator.pondersroleplaymod.item.PeeSoakedMopItem;
 import net.mcreator.pondersroleplaymod.item.PeeMopBucketItem;
 import net.mcreator.pondersroleplaymod.item.MopItem;
@@ -65,6 +66,17 @@ import net.mcreator.pondersroleplaymod.block.display.SodaFillBlueDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.SodaDispensorDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.SinkDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.PoopPuddleDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.PlatesDisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates9DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates8DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates7DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates6DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates5DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates4DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates3DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates2DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates11DisplayItem;
+import net.mcreator.pondersroleplaymod.block.display.Plates10DisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.PeePuddleDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.PaperOpenSignDisplayItem;
 import net.mcreator.pondersroleplaymod.block.display.PaperClosedSignDisplayItem;
@@ -183,6 +195,18 @@ public class PondersRoleplayModModItems {
 			() -> new PaperOpenSignDisplayItem(PondersRoleplayModModBlocks.PAPER_OPEN_SIGN.get(), new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_ROLE_PLAY)));
 	public static final RegistryObject<Item> PAPER_CLOSED_SIGN = REGISTRY.register(PondersRoleplayModModBlocks.PAPER_CLOSED_SIGN.getId().getPath(),
 			() -> new PaperClosedSignDisplayItem(PondersRoleplayModModBlocks.PAPER_CLOSED_SIGN.get(), new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_ROLE_PLAY)));
+	public static final RegistryObject<Item> PLATES = REGISTRY.register(PondersRoleplayModModBlocks.PLATES.getId().getPath(), () -> new PlatesDisplayItem(PondersRoleplayModModBlocks.PLATES.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_2 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_2.getId().getPath(), () -> new Plates2DisplayItem(PondersRoleplayModModBlocks.PLATES_2.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_3 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_3.getId().getPath(), () -> new Plates3DisplayItem(PondersRoleplayModModBlocks.PLATES_3.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATE = REGISTRY.register("plate", () -> new PlateItem());
+	public static final RegistryObject<Item> PLATES_4 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_4.getId().getPath(), () -> new Plates4DisplayItem(PondersRoleplayModModBlocks.PLATES_4.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_5 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_5.getId().getPath(), () -> new Plates5DisplayItem(PondersRoleplayModModBlocks.PLATES_5.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_6 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_6.getId().getPath(), () -> new Plates6DisplayItem(PondersRoleplayModModBlocks.PLATES_6.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_7 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_7.getId().getPath(), () -> new Plates7DisplayItem(PondersRoleplayModModBlocks.PLATES_7.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_8 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_8.getId().getPath(), () -> new Plates8DisplayItem(PondersRoleplayModModBlocks.PLATES_8.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_9 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_9.getId().getPath(), () -> new Plates9DisplayItem(PondersRoleplayModModBlocks.PLATES_9.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_10 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_10.getId().getPath(), () -> new Plates10DisplayItem(PondersRoleplayModModBlocks.PLATES_10.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> PLATES_11 = REGISTRY.register(PondersRoleplayModModBlocks.PLATES_11.getId().getPath(), () -> new Plates11DisplayItem(PondersRoleplayModModBlocks.PLATES_11.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

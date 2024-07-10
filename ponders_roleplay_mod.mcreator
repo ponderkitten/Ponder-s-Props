@@ -2051,6 +2051,346 @@
         ]
       },
       "path": "~/Misc"
+    },
+    {
+      "name": "Plates",
+      "type": "animatedblock",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/PlatesBlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/PlatesDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/PlatesBlock.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/PlatesTileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/PlatesTileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/PlatesDisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/PlatesDisplayModel.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PlatesOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/PlatesOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates2",
+      "type": "animatedblock",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates2Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_2.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates2BlockModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_2.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_2_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates2DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates2DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates2TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates2DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates2TileRenderer.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates3",
+      "type": "animatedblock",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates3TileEntity.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_3.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates3DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates3BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates3DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates3DisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_3.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_3_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates3TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates3Block.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plate",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/item/PlateItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plate.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates4",
+      "type": "animatedblock",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_4_particle.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_4.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates4TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates4BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates4DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates4DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates4DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates4Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_4.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates4TileRenderer.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates5",
+      "type": "animatedblock",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_5.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_5.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates5BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates5DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates5DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates5TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates5DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates5TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates5Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_5_particle.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates6",
+      "type": "animatedblock",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates6DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates6Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_6.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates6DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates6DisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_6.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates6TileRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_6_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates6BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates6TileEntity.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates7",
+      "type": "animatedblock",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates7TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates7DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates7DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates7DisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_7.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_7_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates7Block.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates7BlockModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_7.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates7TileEntity.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates8",
+      "type": "animatedblock",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates8BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates8DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates8TileRenderer.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_8.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_8_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates8Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_8.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates8DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates8DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates8TileEntity.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates9",
+      "type": "animatedblock",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates9BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates9DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates9TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates9DisplayItem.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_9.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates9Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_9.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates9DisplayModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates9TileEntity.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_9_particle.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates10",
+      "type": "animatedblock",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates10TileRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates10DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates10DisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_10_particle.json",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_10.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates10DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates10BlockModel.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates10TileEntity.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates10Block.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_10.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Plates11",
+      "type": "animatedblock",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plates_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/block/Plates11Block.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates11DisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/display/Plates11DisplayItem.java",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates11DisplayModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/item/plates_11.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/entity/Plates11TileEntity.java",
+          "src/main/resources/assets/ponders_roleplay_mod/models/custom/plates_11_particle.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/model/Plates11BlockModel.java",
+          "src/main/resources/assets/ponders_roleplay_mod/blockstates/plates_11.json",
+          "src/main/java/net/mcreator/pondersroleplaymod/block/renderer/Plates11TileRenderer.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "PlateItemrightclickedonblock",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_itemrightclickedonblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pondersroleplaymod/procedures/PlateItemrightclickedonblockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
     }
   ],
   "variable_elements": [],
@@ -2070,9 +2410,10 @@
       "item.ponders_roleplay_mod.soda_empty": "Empty Cup",
       "block.ponders_roleplay_mod.drain_poop": "Drain",
       "block.ponders_roleplay_mod.trashbin_stage_2": "Trash Bin",
-      "item.ponders_roleplay_mod.water_mop_bucket": "Water Mop Bucket",
       "block.ponders_roleplay_mod.trashbin_stage_1": "Trash Bin",
+      "item.ponders_roleplay_mod.water_mop_bucket": "Water Mop Bucket",
       "block.ponders_roleplay_mod.drain_water": "Drain",
+      "block.ponders_roleplay_mod.plates": "Plates",
       "item.ponders_roleplay_mod.soda_blue": "Blue Soda",
       "block.ponders_roleplay_mod.drain_blood": "Drain",
       "item.ponders_roleplay_mod.box_cutter": "Box Cutter",
@@ -2095,10 +2436,13 @@
       "block.ponders_roleplay_mod.soda_dispensor": "Soda Dispensor",
       "item.ponders_roleplay_mod.dead_child": "Dead Child",
       "block.ponders_roleplay_mod.drain_pee": "Drain",
+      "block.ponders_roleplay_mod.plates_11": "Plates",
       "item.ponders_roleplay_mod.crowbar": "Crowbar",
       "block.ponders_roleplay_mod.trash_bin_empty": "Trash Bin",
       "item.ponders_roleplay_mod.broom": "Broom",
       "item.ponders_roleplay_mod.wet_mop": "Dirty Mop",
+      "item.ponders_roleplay_mod.plate": "Plate",
+      "block.ponders_roleplay_mod.plates_10": "Plates",
       "block.ponders_roleplay_mod.water_puddle": "Water Puddle",
       "block.ponders_roleplay_mod.soda_fill_yellow": "Soda Dispensor",
       "item.ponders_roleplay_mod.bloody_mop_bucket": "Blood Mop Bucket",
@@ -2106,9 +2450,17 @@
       "item.ponders_roleplay_mod.full_dust_pan": "Full Dust Pan",
       "block.ponders_roleplay_mod.wooden_boards_3": "Wooden Boards",
       "item.ponders_roleplay_mod.diarrhea_mop_bucket": "Diarrhea Mop Bucket",
+      "block.ponders_roleplay_mod.plates_8": "Plates",
+      "block.ponders_roleplay_mod.plates_9": "Plates",
       "block.ponders_roleplay_mod.blood_puddle": "Blood Puddle",
+      "block.ponders_roleplay_mod.plates_6": "Plates",
+      "block.ponders_roleplay_mod.plates_7": "Plates",
       "item.ponders_roleplay_mod.moneys": "Money",
+      "block.ponders_roleplay_mod.plates_4": "Plates",
+      "block.ponders_roleplay_mod.plates_5": "Plates",
+      "block.ponders_roleplay_mod.plates_2": "Plates",
       "item.ponders_roleplay_mod.soda_yellow": "Yellow Soda",
+      "block.ponders_roleplay_mod.plates_3": "Plates",
       "block.ponders_roleplay_mod.wooden_boards_2": "Wooden Boards",
       "block.ponders_roleplay_mod.wooden_boards_1": "Wooden Boards",
       "item.ponders_roleplay_mod.full_trash_bag": "Full Trash Bag",

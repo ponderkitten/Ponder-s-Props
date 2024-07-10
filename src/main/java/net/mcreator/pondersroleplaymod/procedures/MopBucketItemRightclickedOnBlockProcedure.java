@@ -31,7 +31,7 @@ public class MopBucketItemRightclickedOnBlockProcedure {
 			}
 			{
 				Direction _dir = (entity.getDirection());
-				BlockPos _pos = new BlockPos(x, y, z);
+				BlockPos _pos = new BlockPos(x, y + 1, z);
 				BlockState _bs = world.getBlockState(_pos);
 				Property<?> _property = _bs.getBlock().getStateDefinition().getProperty("facing");
 				if (_property instanceof DirectionProperty _dp && _dp.getPossibleValues().contains(_dir)) {
