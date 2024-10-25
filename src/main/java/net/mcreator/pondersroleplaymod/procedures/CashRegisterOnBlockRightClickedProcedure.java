@@ -57,6 +57,36 @@ public class CashRegisterOnBlockRightClickedProcedure {
 						}
 					}
 				}
+			} else if (PondersRoleplayModModItems.CREDIT_CARD.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = PondersRoleplayModModBlocks.CASH_REGISTER_CARD.get().defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					BlockEntity _be = world.getBlockEntity(_bp);
+					CompoundTag _bnbt = null;
+					if (_be != null) {
+						_bnbt = _be.saveWithFullMetadata();
+						_be.setRemoved();
+					}
+					world.setBlock(_bp, _bs, 3);
+					if (_bnbt != null) {
+						_be = world.getBlockEntity(_bp);
+						if (_be != null) {
+							try {
+								_be.load(_bnbt);
+							} catch (Exception ignored) {
+							}
+						}
+					}
+				}
 			}
 		} else if (PondersRoleplayModModBlocks.CASH_REGISTER_OPEN.get() == (world.getBlockState(new BlockPos(x, y, z))).getBlock()) {
 			if (PondersRoleplayModModItems.REGISTER_KEY.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {

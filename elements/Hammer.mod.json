@@ -4,11 +4,11 @@
   "definition": {
     "renderType": 0,
     "texture": "hammer",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Hammer",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:PondersRPItems"
+      "value": "CUSTOM:PondersTools"
     },
     "stackSize": 1,
     "enchantability": 0,

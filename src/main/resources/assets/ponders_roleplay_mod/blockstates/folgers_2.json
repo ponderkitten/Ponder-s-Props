@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ponders_roleplay_mod:block/folgers_2"
+    },
+    "facing=east": {
+      "model": "ponders_roleplay_mod:block/folgers_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ponders_roleplay_mod:block/folgers_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ponders_roleplay_mod:block/folgers_2",
+      "y": 270
+    }
+  }
+}

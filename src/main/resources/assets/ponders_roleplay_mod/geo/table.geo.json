@@ -1,0 +1,51 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Table",
+					"pivot": [0, 14, 0],
+					"cubes": [
+						{"origin": [-3, -0.2, -3], "size": [6, 1, 6], "uv": [36, 18]},
+						{"origin": [-8, 13.8, -8], "size": [16, 2, 16], "uv": [0, 0]},
+						{"origin": [-1, 0.8, -1], "size": [2, 13, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Chair",
+					"pivot": [0, 0, 6],
+					"cubes": [
+						{"origin": [-5, -0.2, -5], "size": [2, 8, 2], "uv": [52, 35]},
+						{"origin": [-6, 7.8, -14], "size": [12, 2, 12], "uv": [0, 32]},
+						{"origin": [-6, 9.8, -14], "size": [12, 14, 2], "uv": [28, 46]},
+						{"origin": [3, -0.2, -5], "size": [2, 8, 2], "uv": [52, 25]},
+						{"origin": [3, -0.2, -13], "size": [2, 8, 2], "uv": [44, 32]},
+						{"origin": [-5, -0.2, -13], "size": [2, 8, 2], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "Chair2",
+					"pivot": [0, 7, 8.91667],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{"origin": [-5, -0.2, 12.75], "size": [2, 8, 2], "uv": [36, 32]},
+						{"origin": [-6, 7.8, 3.75], "size": [12, 2, 12], "uv": [0, 18]},
+						{"origin": [-6, 9.8, 3.75], "size": [12, 14, 2], "uv": [0, 46]},
+						{"origin": [3, -0.2, 12.75], "size": [2, 8, 2], "uv": [0, 32]},
+						{"origin": [3, -0.2, 4.75], "size": [2, 8, 2], "uv": [0, 18]},
+						{"origin": [-5, -0.2, 4.75], "size": [2, 8, 2], "uv": [8, 0]}
+					]
+				}
+			]
+		}
+	]
+}

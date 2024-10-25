@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ponders_roleplay_mod:block/phone_resting"
+    },
+    "facing=east": {
+      "model": "ponders_roleplay_mod:block/phone_resting",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ponders_roleplay_mod:block/phone_resting",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ponders_roleplay_mod:block/phone_resting",
+      "y": 270
+    }
+  }
+}

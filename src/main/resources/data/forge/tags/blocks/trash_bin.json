@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ponders_roleplay_mod:trashbin_stage_1",
+    "ponders_roleplay_mod:trashbin_stage_2",
+    "ponders_roleplay_mod:bagged_trash_bin",
+    "ponders_roleplay_mod:full_trash_bin",
+    "ponders_roleplay_mod:trash_bin_stage_3"
+  ]
+}

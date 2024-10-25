@@ -16,7 +16,6 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.pondersroleplaymod.procedures.MopRightclickedProcedure;
-import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModTabs;
 
 import java.util.List;
 
@@ -25,7 +24,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class WetMopItem extends Item {
 	public WetMopItem() {
-		super(new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_RP_ITEMS).durability(100));
+		super(new Item.Properties().tab(null).durability(100));
 	}
 
 	@Override

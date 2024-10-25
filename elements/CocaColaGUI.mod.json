@@ -1,0 +1,134 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper",
+          "text": "Sprite",
+          "onClick": {
+            "name": "SpriteCode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper1",
+          "text": "Orange Fanta",
+          "onClick": {
+            "name": "FantaCode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper2",
+          "text": "Lemonade",
+          "onClick": {
+            "name": "LemonadeCode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper3",
+          "text": "Dasani water",
+          "onClick": {
+            "name": "DasaniCode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper4",
+          "text": "Baroq's Root Beer",
+          "onClick": {
+            "name": "BRootBeerCode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper5",
+          "text": "CocaCola Zero",
+          "onClick": {
+            "name": "CokeZeroCode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper6",
+          "text": "Diet CocaCola",
+          "onClick": {
+            "name": "DietCokeCode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_diet_dr_pepper7",
+          "text": "CocaCola",
+          "onClick": {
+            "name": "Cokecode"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 168,
+          "y": 44
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ponders_roleplay_mod:blocks/changeside",
+    "up": "ponders_roleplay_mod:blocks/changeside",
+    "north": "ponders_roleplay_mod:blocks/changemachinefront",
+    "east": "ponders_roleplay_mod:blocks/changeside",
+    "south": "ponders_roleplay_mod:blocks/changeside",
+    "west": "ponders_roleplay_mod:blocks/changeside",
+    "particle": "ponders_roleplay_mod:blocks/changeside"
+  },
+  "render_type": "solid"
+}

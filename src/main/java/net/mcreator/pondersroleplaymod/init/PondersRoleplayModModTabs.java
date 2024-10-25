@@ -10,6 +10,7 @@ import net.minecraft.world.item.CreativeModeTab;
 public class PondersRoleplayModModTabs {
 	public static CreativeModeTab TAB_PONDERS_RP_ITEMS;
 	public static CreativeModeTab TAB_PONDERS_ROLE_PLAY;
+	public static CreativeModeTab TAB_PONDERS_TOOLS;
 
 	public static void load() {
 		TAB_PONDERS_RP_ITEMS = new CreativeModeTab("tabponders_rp_items") {
@@ -27,6 +28,17 @@ public class PondersRoleplayModModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(PondersRoleplayModModBlocks.FULL_TRASH_BIN.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_PONDERS_TOOLS = new CreativeModeTab("tabponders_tools") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(PondersRoleplayModModItems.HAMMER.get());
 			}
 
 			@Override

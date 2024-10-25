@@ -1,0 +1,116 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, -0.2, 0],
+					"cubes": [
+						{"origin": [5, -0.2, -8], "size": [3, 8, 16], "uv": [36, 29]},
+						{"origin": [-5, -0.2, -7], "size": [10, 6, 15], "uv": [0, 0]},
+						{"origin": [-5, 5.8, -8], "size": [10, 2, 16], "uv": [0, 21]},
+						{"origin": [-8, -0.2, -8], "size": [3, 8, 16], "uv": [36, 5]},
+						{"origin": [5, 7.8, -3], "size": [3, 3, 11], "uv": [17, 42]},
+						{"origin": [-8, 7.8, -3], "size": [3, 3, 11], "uv": [0, 39]},
+						{"origin": [-8, 7.8, -8], "size": [3, 1, 5], "uv": [0, 21]},
+						{"origin": [5, 7.8, -8], "size": [3, 1, 5], "uv": [0, 27]},
+						{"origin": [-7.5, 10.3, -2.5], "size": [2, 1, 2], "uv": [0, 4]}
+					]
+				},
+				{
+					"name": "ball",
+					"parent": "bone",
+					"pivot": [0, -0.2, 0],
+					"cubes": [
+						{"origin": [5.5, 7.8, -2], "size": [2, 2, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tickets",
+					"parent": "bone",
+					"pivot": [-6.5, 10.3, 8],
+					"cubes": [
+						{
+							"origin": [-6.5, 6.3, -1],
+							"size": [1, 0.5, 2],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1, 1]},
+								"east": {"uv": [6, 0], "uv_size": [1, 1]},
+								"south": {"uv": [6, 0], "uv_size": [1, 1]},
+								"west": {"uv": [6, 1], "uv_size": [1, -1]},
+								"up": {"uv": [6, 0], "uv_size": [1, 1]},
+								"down": {"uv": [6, 1], "uv_size": [1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ticket2",
+					"parent": "tickets",
+					"pivot": [-6.5, 6.3, -2],
+					"cubes": [
+						{
+							"origin": [-6.5, 6.3, -3],
+							"size": [1, 0.5, 2],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1, 1]},
+								"east": {"uv": [6, 0], "uv_size": [1, 1]},
+								"south": {"uv": [6, 0], "uv_size": [1, 1]},
+								"west": {"uv": [6, 1], "uv_size": [1, -1]},
+								"up": {"uv": [6, 0], "uv_size": [1, 1]},
+								"down": {"uv": [6, 1], "uv_size": [1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ticket3",
+					"parent": "ticket2",
+					"pivot": [-6.5, 6.3, -2],
+					"cubes": [
+						{
+							"origin": [-6.5, 6.3, -5],
+							"size": [1, 0.5, 2],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1, 1]},
+								"east": {"uv": [6, 0], "uv_size": [1, 1]},
+								"south": {"uv": [6, 0], "uv_size": [1, 1]},
+								"west": {"uv": [6, 1], "uv_size": [1, -1]},
+								"up": {"uv": [6, 0], "uv_size": [1, 1]},
+								"down": {"uv": [6, 1], "uv_size": [1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ticket4",
+					"parent": "ticket3",
+					"pivot": [-6.5, 6.3, -6],
+					"cubes": [
+						{
+							"origin": [-6.5, 6.3, -7],
+							"size": [1, 0.5, 2],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [1, 1]},
+								"east": {"uv": [6, 0], "uv_size": [1, 1]},
+								"south": {"uv": [6, 0], "uv_size": [1, 1]},
+								"west": {"uv": [6, 1], "uv_size": [1, -1]},
+								"up": {"uv": [6, 0], "uv_size": [1, 1]},
+								"down": {"uv": [6, 1], "uv_size": [1, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ponders_roleplay_mod:custom/phone",
+  "textures": {
+    "all": "ponders_roleplay_mod:blocks/phoneonreceiver",
+    "particle": "ponders_roleplay_mod:blocks/phoneonreceiver",
+    "0": "ponders_roleplay_mod:blocks/phoneonreceiver"
+  },
+  "render_type": "solid"
+}

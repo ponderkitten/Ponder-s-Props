@@ -1,0 +1,233 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next",
+          "onClick": {
+            "name": "NextButton"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 240,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_broom",
+          "text": {
+            "fixedValue": "Trash"
+          },
+          "color": {
+            "value": -15672498,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_broom_is_used_for_sweeping_u",
+          "text": {
+            "fixedValue": "To empty your dust pan, go to"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_up_trash_you_right_click",
+          "text": {
+            "fixedValue": "a trash bin and right click on"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trash_pile_while_holding_a_broom",
+          "text": {
+            "fixedValue": "it. This will empty your dust"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_broom_to_sweep_it_if_you_have",
+          "text": {
+            "fixedValue": "pan and fill the bin up a bit."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_a_dust_pan_in_your_offhand",
+          "text": {
+            "fixedValue": "When a trash bin gets full you"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_will_sweep_the_trash_into_the_du",
+          "text": {
+            "fixedValue": "Will need to empty it. Just "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dustpan_the_dustpan_can_hold",
+          "text": {
+            "fixedValue": "right click it with an empty"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_more_trash_and_make_it_easier",
+          "text": {
+            "fixedValue": "hand and you'll get the trash"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_clean_larger_areas",
+          "text": {
+            "fixedValue": "bag. What you do with that is"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "trash.png",
+          "use1Xscale": false,
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fulltrashbag.png",
+          "use1Xscale": false,
+          "x": 267,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next1",
+          "text": "Back",
+          "onClick": {
+            "name": "BackButton"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 141,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_up_to_you",
+          "text": {
+            "fixedValue": "up to you."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 143
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

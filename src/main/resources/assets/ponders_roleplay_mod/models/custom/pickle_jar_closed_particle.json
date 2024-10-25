@@ -1,0 +1,6 @@
+{
+  "parent": "ponders_roleplay_mod:displaysettings/bonniemask.item",
+  "textures": {
+    "particle": "ponders_roleplay_mod:blocks/picklejar"
+  }
+}

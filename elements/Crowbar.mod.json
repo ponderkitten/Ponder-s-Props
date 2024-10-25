@@ -4,11 +4,11 @@
   "definition": {
     "renderType": 0,
     "texture": "crowbar",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Crowbar",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:PondersRPItems"
+      "value": "CUSTOM:PondersTools"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -31,6 +31,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "CrowbarRightClick"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

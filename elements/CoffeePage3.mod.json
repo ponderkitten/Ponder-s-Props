@@ -1,0 +1,233 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_next",
+          "text": "Next",
+          "onClick": {
+            "name": "NextButton"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 240,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_broom",
+          "text": {
+            "fixedValue": "Coffee Pod Machine"
+          },
+          "color": {
+            "value": -15672498,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_broom_is_used_for_sweeping_u",
+          "text": {
+            "fixedValue": "The coffee pod machine can"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_up_trash_you_right_click",
+          "text": {
+            "fixedValue": "only make a single cup of"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_trash_pile_while_holding_a_broom",
+          "text": {
+            "fixedValue": "at a time. To use you place a "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_broom_to_sweep_it_if_you_have",
+          "text": {
+            "fixedValue": "cup in the machine then put a"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_a_dust_pan_in_your_offhand",
+          "text": {
+            "fixedValue": "coffee pod in. This machine"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_will_sweep_the_trash_into_the_du",
+          "text": {
+            "fixedValue": "also takes a minute to boil"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dustpan_the_dustpan_can_hold",
+          "text": {
+            "fixedValue": "after which it will pour the"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coffeecup.png",
+          "use1Xscale": false,
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coffeepod.png",
+          "use1Xscale": false,
+          "x": 267,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_back",
+          "text": "Back",
+          "onClick": {
+            "name": "BackButton"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 141,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rightclick_the_bucket_with_the",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mop",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_boil_after_which_it_will",
+          "text": {
+            "fixedValue": "coffee into the cup."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

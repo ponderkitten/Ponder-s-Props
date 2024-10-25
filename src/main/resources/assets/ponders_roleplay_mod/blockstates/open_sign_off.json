@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ponders_roleplay_mod:block/open_sign_off"
+    },
+    "facing=east": {
+      "model": "ponders_roleplay_mod:block/open_sign_off",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ponders_roleplay_mod:block/open_sign_off",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ponders_roleplay_mod:block/open_sign_off",
+      "y": 270
+    }
+  }
+}

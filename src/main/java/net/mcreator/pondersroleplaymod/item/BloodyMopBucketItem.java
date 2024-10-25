@@ -4,10 +4,8 @@ package net.mcreator.pondersroleplaymod.item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModTabs;
-
 public class BloodyMopBucketItem extends Item {
 	public BloodyMopBucketItem() {
-		super(new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_RP_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(null).stacksTo(1).rarity(Rarity.COMMON));
 	}
 }

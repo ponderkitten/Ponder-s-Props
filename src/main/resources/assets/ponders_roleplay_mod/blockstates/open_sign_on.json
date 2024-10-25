@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ponders_roleplay_mod:block/open_sign_on"
+    },
+    "facing=east": {
+      "model": "ponders_roleplay_mod:block/open_sign_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ponders_roleplay_mod:block/open_sign_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ponders_roleplay_mod:block/open_sign_on",
+      "y": 270
+    }
+  }
+}

@@ -160,5 +160,28 @@ public class BoardRightclickedOnBlockProcedure {
 				}
 			}
 		}
+		if ((world.getBlockState(new BlockPos(x, y + 1, z))).getBlock() == Blocks.AIR && entity.isShiftKeyDown() == true
+				&& Direction.UP == (entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(5)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getDirection())
+				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == PondersRoleplayModModItems.HAMMER.get()
+				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == ItemStack.EMPTY.getItem()) {
+			world.setBlock(new BlockPos(x, y + 1, z), PondersRoleplayModModBlocks.HAMMER_BLOCK.get().defaultBlockState(), 3);
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(PondersRoleplayModModItems.HAMMER.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			{
+				Direction _dir = ((entity.getDirection()).getOpposite());
+				BlockPos _pos = new BlockPos(x, y + 1, z);
+				BlockState _bs = world.getBlockState(_pos);
+				Property<?> _property = _bs.getBlock().getStateDefinition().getProperty("facing");
+				if (_property instanceof DirectionProperty _dp && _dp.getPossibleValues().contains(_dir)) {
+					world.setBlock(_pos, _bs.setValue(_dp, _dir), 3);
+				} else {
+					_property = _bs.getBlock().getStateDefinition().getProperty("axis");
+					if (_property instanceof EnumProperty _ap && _ap.getPossibleValues().contains(_dir.getAxis()))
+						world.setBlock(_pos, _bs.setValue(_ap, _dir.getAxis()), 3);
+				}
+			}
+		}
 	}
 }

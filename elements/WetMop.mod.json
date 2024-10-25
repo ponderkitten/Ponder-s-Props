@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "wetmopitem",
     "customModelName": "Normal",
-    "name": "Dirty Mop",
+    "name": "Wet Mop",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:PondersRPItems"
+      "value": "No creative tab entry"
     },
     "toolType": "Special",
     "harvestLevel": 1,

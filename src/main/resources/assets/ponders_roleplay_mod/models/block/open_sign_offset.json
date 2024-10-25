@@ -1,0 +1,9 @@
+{
+  "parent": "ponders_roleplay_mod:custom/opensignoffset",
+  "textures": {
+    "all": "ponders_roleplay_mod:blocks/opensignoff",
+    "particle": "ponders_roleplay_mod:blocks/opensignoff",
+    "1": "ponders_roleplay_mod:blocks/opensignoff"
+  },
+  "render_type": "solid"
+}

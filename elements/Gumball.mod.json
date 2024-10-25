@@ -1,0 +1,42 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Gumballred"
+      },
+      {
+        "value": "CUSTOM:GumballPurple"
+      },
+      {
+        "value": "CUSTOM:GumballYellow"
+      },
+      {
+        "value": "CUSTOM:GumballPink"
+      },
+      {
+        "value": "CUSTOM:GumballGreen"
+      },
+      {
+        "value": "CUSTOM:GumballCyan"
+      },
+      {
+        "value": "CUSTOM:GumballBlue"
+      },
+      {
+        "value": "CUSTOM:GumballOrange"
+      },
+      {
+        "value": "CUSTOM:Gumballsmily"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "gumball",
+    "namespace": "forge"
+  }
+}

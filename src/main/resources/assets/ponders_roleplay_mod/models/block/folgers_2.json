@@ -1,0 +1,9 @@
+{
+  "parent": "ponders_roleplay_mod:custom/folgers2",
+  "textures": {
+    "all": "ponders_roleplay_mod:blocks/folgers2",
+    "particle": "ponders_roleplay_mod:blocks/folgers2",
+    "0": "ponders_roleplay_mod:blocks/folgers2"
+  },
+  "render_type": "solid"
+}

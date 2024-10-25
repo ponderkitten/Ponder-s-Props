@@ -32,7 +32,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModTabs;
+import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModParticleTypes;
+import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModMenus;
 import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModItems;
+import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModEntities;
 import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModBlocks;
 import net.mcreator.pondersroleplaymod.init.PondersRoleplayModModBlockEntities;
 
@@ -57,8 +60,11 @@ public class PondersRoleplayModMod {
 
 		PondersRoleplayModModBlocks.REGISTRY.register(bus);
 		PondersRoleplayModModItems.REGISTRY.register(bus);
-
+		PondersRoleplayModModEntities.REGISTRY.register(bus);
 		PondersRoleplayModModBlockEntities.REGISTRY.register(bus);
+
+		PondersRoleplayModModParticleTypes.REGISTRY.register(bus);
+		PondersRoleplayModModMenus.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

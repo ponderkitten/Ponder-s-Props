@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ponders_roleplay_mod:block/change_machine_bottom"
+    },
+    "facing=east": {
+      "model": "ponders_roleplay_mod:block/change_machine_bottom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ponders_roleplay_mod:block/change_machine_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ponders_roleplay_mod:block/change_machine_bottom",
+      "y": 270
+    }
+  }
+}

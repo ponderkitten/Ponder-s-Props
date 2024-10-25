@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ponders_roleplay_mod:items/quarter"
+  }
+}

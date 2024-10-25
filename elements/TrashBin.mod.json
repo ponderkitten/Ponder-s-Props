@@ -1,0 +1,30 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TrashbinStage1"
+      },
+      {
+        "value": "CUSTOM:TrashbinStage2"
+      },
+      {
+        "value": "CUSTOM:TrashBinStage3"
+      },
+      {
+        "value": "CUSTOM:FullTrashBin"
+      },
+      {
+        "value": "CUSTOM:BaggedTrashBin"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "trash_bin",
+    "namespace": "forge"
+  }
+}

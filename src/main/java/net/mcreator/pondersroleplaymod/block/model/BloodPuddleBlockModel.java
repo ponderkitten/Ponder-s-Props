@@ -19,6 +19,6 @@ public class BloodPuddleBlockModel extends AnimatedGeoModel<BloodPuddleTileEntit
 
 	@Override
 	public ResourceLocation getTextureResource(BloodPuddleTileEntity entity) {
-		return new ResourceLocation("ponders_roleplay_mod", "textures/blocks/bloodpuddle.png");
+		return new ResourceLocation("ponders_roleplay_mod", "textures/blocks/blood.png");
 	}
 }

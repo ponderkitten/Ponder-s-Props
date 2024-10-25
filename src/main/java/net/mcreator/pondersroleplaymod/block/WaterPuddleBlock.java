@@ -72,10 +72,10 @@ public class WaterPuddleBlock extends BaseEntityBlock implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 0.1, 16);
-			case NORTH -> box(0, 0, 0, 16, 0.1, 16);
-			case EAST -> box(0, 0, 0, 16, 0.1, 16);
-			case WEST -> box(0, 0, 0, 16, 0.1, 16);
+			default -> box(0, 0, 0, 16, 0.2, 16);
+			case NORTH -> box(0, 0, 0, 16, 0.2, 16);
+			case EAST -> box(0, 0, 0, 16, 0.2, 16);
+			case WEST -> box(0, 0, 0, 16, 0.2, 16);
 		};
 	}
 

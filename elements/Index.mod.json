@@ -1,0 +1,139 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample",
+          "text": "Broom",
+          "width": 56,
+          "height": 20,
+          "x": 231,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample1",
+          "text": "Coffee",
+          "width": 56,
+          "height": 20,
+          "x": 231,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample2",
+          "text": "Trash",
+          "width": 56,
+          "height": 20,
+          "x": 141,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample3",
+          "text": "Sample",
+          "width": 56,
+          "height": 20,
+          "x": 231,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample4",
+          "text": "Next",
+          "onClick": {
+            "name": "NextButton"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 231,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample6",
+          "text": "Sample",
+          "width": 56,
+          "height": 20,
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample7",
+          "text": "Popcorn",
+          "width": 56,
+          "height": 20,
+          "x": 141,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample8",
+          "text": "Register",
+          "width": 56,
+          "height": 20,
+          "x": 231,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sample9",
+          "text": "Mop",
+          "width": 56,
+          "height": 20,
+          "x": 141,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_index",
+          "text": {
+            "fixedValue": "Index"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 201,
+          "y": 43
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

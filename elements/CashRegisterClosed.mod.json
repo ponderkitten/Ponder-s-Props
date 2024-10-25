@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "cashregisteritem",
+    "itemTexture": "cashregisteritemredmatt",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "folgers2"
+      },
+      "name": "default"
+    }
+  }
+}

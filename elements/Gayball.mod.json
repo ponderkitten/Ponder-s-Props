@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GumballPan"
+      },
+      {
+        "value": "CUSTOM:GumballGay"
+      },
+      {
+        "value": "CUSTOM:GumballPoly"
+      },
+      {
+        "value": "CUSTOM:GumballTrans"
+      },
+      {
+        "value": "CUSTOM:GumballInter"
+      },
+      {
+        "value": "CUSTOM:GumballLesbian"
+      },
+      {
+        "value": "CUSTOM:GumballAero"
+      },
+      {
+        "value": "CUSTOM:GumballNonbinary"
+      },
+      {
+        "value": "CUSTOM:GumballAsx"
+      },
+      {
+        "value": "CUSTOM:GumballBi"
+      },
+      {
+        "value": "CUSTOM:Gumballsmeighly"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "gayball",
+    "namespace": "forge"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ponders_roleplay_mod:items/cashregisteritem"
+    "layer0": "ponders_roleplay_mod:items/cashregisteritemredmatt"
   }
 }

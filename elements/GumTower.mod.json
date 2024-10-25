@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GumballTowerRed"
+      },
+      {
+        "value": "CUSTOM:GumballTowerBlue"
+      },
+      {
+        "value": "CUSTOM:GumballTowerGreen"
+      },
+      {
+        "value": "CUSTOM:GumballTowerPink"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "gum_tower",
+    "namespace": "forge"
+  }
+}

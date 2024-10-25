@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "boarditem",
+    "itemTexture": "boarditemredmatt",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

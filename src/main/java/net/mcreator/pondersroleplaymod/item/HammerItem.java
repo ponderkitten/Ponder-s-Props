@@ -17,7 +17,7 @@ import java.util.List;
 
 public class HammerItem extends Item {
 	public HammerItem() {
-		super(new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_RP_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(PondersRoleplayModModTabs.TAB_PONDERS_TOOLS).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

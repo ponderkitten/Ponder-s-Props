@@ -1,0 +1,45 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Main",
+					"pivot": [0, -0.2, -3.5],
+					"cubes": [
+						{"origin": [5, -0.6034, -3.85667], "size": [1, 20.25, 1], "pivot": [5.5, 0.0216, -3.35667], "rotation": [-30, 0, 0], "uv": [4, 17]},
+						{"origin": [-5, 2.6466, -3.85667], "size": [10, 1, 1], "pivot": [5.5, 0.0216, -3.35667], "rotation": [-30, 0, 0], "uv": [8, 19]},
+						{"origin": [-5, 14.3966, -3.85667], "size": [10, 5.25, 1], "pivot": [5.5, 0.0216, -3.35667], "rotation": [-30, 0, 0], "uv": [0, 11]},
+						{"origin": [-6, -0.6034, -3.85667], "size": [1, 20.25, 1], "pivot": [-5.5, 0.0216, -3.35667], "rotation": [-30, 0, 0], "uv": [0, 17]}
+					]
+				},
+				{
+					"name": "seat",
+					"parent": "Main",
+					"pivot": [0, -0.2, 2],
+					"cubes": [
+						{"origin": [-5, 6.8, -5], "size": [10, 1, 10], "pivot": [0, 7.3, 0], "rotation": [-6, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "backlegs",
+					"parent": "Main",
+					"pivot": [0, -0.2, 2],
+					"cubes": [
+						{"origin": [5, -0.77808, 2.39333], "size": [1, 11.75, 1], "pivot": [5.5, 10.84692, 2.89333], "rotation": [12.5, 0, 0], "uv": [12, 21]},
+						{"origin": [-5, 2.22192, 2.39333], "size": [10, 1, 1], "pivot": [5.5, 10.84692, 2.89333], "rotation": [12.5, 0, 0], "uv": [8, 17]},
+						{"origin": [-6, -0.77808, 2.39333], "size": [1, 11.75, 1], "pivot": [-5.5, 10.84692, 2.89333], "rotation": [12.5, 0, 0], "uv": [8, 21]}
+					]
+				}
+			]
+		}
+	]
+}

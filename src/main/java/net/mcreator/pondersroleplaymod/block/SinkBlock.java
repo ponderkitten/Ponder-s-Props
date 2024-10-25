@@ -73,12 +73,10 @@ public class SinkBlock extends BaseEntityBlock implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(5, 0, 0, 11, 10, 4), box(2, 10, 0, 14, 11, 10), box(2, 11, 3, 3, 13, 10), box(13, 11, 0, 14, 13, 9), box(2, 11, 0, 13, 13, 3), box(7, 13, 1, 9, 16, 2), box(7, 15, 2, 9, 16, 5), box(3, 11, 9, 14, 13, 10));
-			case NORTH ->
-				Shapes.or(box(5, 0, 12, 11, 10, 16), box(2, 10, 6, 14, 11, 16), box(13, 11, 6, 14, 13, 13), box(2, 11, 7, 3, 13, 16), box(3, 11, 13, 14, 13, 16), box(7, 13, 14, 9, 16, 15), box(7, 15, 11, 9, 16, 14), box(2, 11, 6, 13, 13, 7));
-			case EAST -> Shapes.or(box(0, 0, 5, 4, 10, 11), box(0, 10, 2, 10, 11, 14), box(3, 11, 13, 10, 13, 14), box(0, 11, 2, 9, 13, 3), box(0, 11, 3, 3, 13, 14), box(1, 13, 7, 2, 16, 9), box(2, 15, 7, 5, 16, 9), box(9, 11, 2, 10, 13, 13));
-			case WEST ->
-				Shapes.or(box(12, 0, 5, 16, 10, 11), box(6, 10, 2, 16, 11, 14), box(6, 11, 2, 13, 13, 3), box(7, 11, 13, 16, 13, 14), box(13, 11, 2, 16, 13, 13), box(14, 13, 7, 15, 16, 9), box(11, 15, 7, 14, 16, 9), box(6, 11, 3, 7, 13, 14));
+			default -> Shapes.or(box(5, 0, 0, 11, 13, 4), box(1, 13, 0, 15, 16, 12));
+			case NORTH -> Shapes.or(box(5, 0, 12, 11, 13, 16), box(1, 13, 4, 15, 16, 16));
+			case EAST -> Shapes.or(box(0, 0, 5, 4, 13, 11), box(0, 13, 1, 12, 16, 15));
+			case WEST -> Shapes.or(box(12, 0, 5, 16, 13, 11), box(4, 13, 1, 16, 16, 15));
 		};
 	}
 

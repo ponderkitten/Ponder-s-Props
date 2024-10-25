@@ -10,7 +10,7 @@
       "Used to cut open closed boxes"
     ],
     "creativeTab": {
-      "value": "CUSTOM:PondersRPItems"
+      "value": "CUSTOM:PondersTools"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
@@ -24,6 +24,9 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "BoxCutterRightClick"
+    }
   }
 }
